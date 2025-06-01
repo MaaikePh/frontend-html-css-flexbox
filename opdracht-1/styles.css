@@ -1,0 +1,90 @@
+/*//////////////Opdracht 1a////////////////*/
+
+.navbar-one ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/*//////////////Opdracht 1b////////////////*/
+
+.navbar-two ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+/*//////////////Opdracht 1c////////////////*/
+
+.navbar-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-three-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-three ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+/*//////////////Opdracht 1d////////////////*/
+
+.navbar-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-four-logo {
+    display: flex;
+    align-items: center;
+    order: 1;
+    gap: 10px;
+}
+
+.navbar-four-links {
+    display: flex;
+    align-items: center;
+    order: 2;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar-four-buttons {
+    order: 3;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+/*//////////////Opdracht 1e////////////////*/
+
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-five-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-five ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
