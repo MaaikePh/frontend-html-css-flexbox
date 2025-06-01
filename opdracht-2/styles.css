@@ -7,8 +7,7 @@ Table of Contents:
     3.2 Header
     3.3 Main
     3.4 Footer
- */
-//////////////////////////////////////////////////////////////*/
+/////////////////////////////////////////////////////////////*/
 
 /*----------------------------------------------------Global Styles----------------------------------------------------------------------------------*/
 
@@ -34,6 +33,10 @@ Table of Contents:
     flex-grow: 1;
 }
 
+ul {
+    list-style: none;
+}
+
 /*----------------------------------------------------Typography----------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------Areas----------------------------------------------------------------------------------*/
@@ -49,6 +52,59 @@ Table of Contents:
 
 nav {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.nav-links ul li a img {
+    max-width: 24px;
+    display: block;
+}
+
+nav ul li a {
+    /*border: 2px dotted yellow;*/
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li button {
+    /*border: 2px dotted yellow;*/
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-buttons {
+    /*border: 2px dotted yellow;*/
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.nav-buttons button {
+    /*border: 2px dotted yellow;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /*---------------------------------3.2 Header 2--------------------------------*/
