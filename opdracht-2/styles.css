@@ -110,7 +110,13 @@ nav ul li button {
 /*---------------------------------3.2 Header 2--------------------------------*/
 
 header {
-    border: 4px dotted blue;
+    /*border: 4px dotted blue;*/
+    text-align: center;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-block: 150px;
 }
 
 /*---------------------------------3.3 Main 2--------------------------------*/
@@ -122,5 +128,8 @@ main {
 /*---------------------------------3.4 Footer 2--------------------------------*/
 
 footer {
-    border: 4px dotted purple;
+    background-color: #383838;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
 }
