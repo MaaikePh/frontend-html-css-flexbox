@@ -1,12 +1,11 @@
 /*////////////////////////////////////////////////////////////
 Table of Contents:
 1. Global Styles
-2. Typography
-3. Areas
-    3.1 Aside
-    3.2 Header
-    3.3 Main
-    3.4 Footer
+2. Areas
+    2.1 Aside
+    2.2 Header
+    2.3 Main
+    2.4 Footer
 /////////////////////////////////////////////////////////////*/
 
 /*----------------------------------------------------Global Styles----------------------------------------------------------------------------------*/
@@ -37,11 +36,9 @@ ul {
     list-style: none;
 }
 
-/*----------------------------------------------------Typography----------------------------------------------------------------------------------*/
-
 /*----------------------------------------------------Areas----------------------------------------------------------------------------------*/
 
-/*---------------------------------3.1 Aside 1--------------------------------*/
+/*---------------------------------2.1 Aside 1--------------------------------*/
 
 .container-left {
     flex-basis: 250px;
@@ -62,8 +59,8 @@ nav {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
-    padding-bottom: 1rem;
+    gap: 16px;
+    padding-bottom: 16px;
 }
 
 .nav-links {
@@ -72,51 +69,41 @@ nav {
     flex-grow: 1;
 }
 
-.nav-links ul li a img {
-    max-width: 24px;
-    display: block;
-}
-
 nav ul li a {
-    /*border: 2px dotted yellow;*/
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 
 nav ul li button {
-    /*border: 2px dotted yellow;*/
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .nav-buttons {
-    /*border: 2px dotted yellow;*/
     display: flex;
     flex-direction: column;
     align-items: stretch;
     width: 100%;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 .nav-buttons button {
-    /*border: 2px dotted yellow;*/
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-/*---------------------------------3.2 Header 2--------------------------------*/
+/*---------------------------------2.2 Header 2--------------------------------*/
 
 header {
-    /*border: 4px dotted blue;*/
     text-align: center;
     background-image: url("../assets/placeholder-image.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-block: 150px;
+    padding-block: 100px;
 }
 
 @media (max-width: 768px) {
@@ -125,11 +112,11 @@ header {
     }
 
     header h1 {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 }
 
-/*---------------------------------3.3 Main 2--------------------------------*/
+/*---------------------------------2.3 Main 2--------------------------------*/
 
 main {
     display: flex;
@@ -140,22 +127,39 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    flex: 1 1 260px;
     flex-wrap: wrap;
     gap: 32px;
     padding-inline: 16px;
 }
 
-article {
-    flex-basis: 260px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    flex: 1 1 260px;
     max-width: 260px;
 }
 
-/*---------------------------------3.4 Footer 2--------------------------------*/
+.card-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price img {
+    max-width: 24px;
+    display: block;
+}
+
+/*---------------------------------2.4 Footer 2--------------------------------*/
 
 footer {
     background-color: #383838;
     color: #FFFFFF;
     text-align: center;
-    padding: 1rem;
+    padding: 16px;
 }
